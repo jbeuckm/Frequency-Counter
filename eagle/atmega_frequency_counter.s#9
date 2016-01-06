@@ -17234,7 +17234,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="C10" library="rcl" deviceset="C-US" device="025-030X050" value="0.1u"/>
 <part name="C13" library="rcl" deviceset="C-US" device="025-030X050" value="0.1u"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="INPUT" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
+<part name="OSC_IN" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="+12V" device=""/>
 <part name="P-4" library="supply1" deviceset="-12V" device=""/>
@@ -17312,7 +17312,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="C10" gate="G$1" x="53.34" y="-17.78"/>
 <instance part="C13" gate="G$1" x="53.34" y="-5.08"/>
 <instance part="GND22" gate="1" x="48.26" y="-27.94"/>
-<instance part="INPUT" gate="G$1" x="-68.58" y="116.84" rot="MR180"/>
+<instance part="OSC_IN" gate="G$1" x="-68.58" y="116.84" rot="MR180"/>
 <instance part="GND23" gate="1" x="-60.96" y="104.14"/>
 <instance part="P+15" gate="1" x="30.48" y="2.54"/>
 <instance part="P-4" gate="1" x="30.48" y="-27.94"/>
@@ -17509,7 +17509,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="53.34" y1="-12.7" x2="53.34" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="INPUT" gate="G$1" pin="RING"/>
+<pinref part="OSC_IN" gate="G$1" pin="RING"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="-60.96" y1="106.68" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
 </segment>
@@ -17681,7 +17681,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="INPUT" gate="G$1" pin="TIP"/>
+<pinref part="OSC_IN" gate="G$1" pin="TIP"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="121.92" x2="-60.96" y2="121.92" width="0.1524" layer="91"/>
 </segment>

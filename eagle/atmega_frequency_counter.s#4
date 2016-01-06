@@ -17407,7 +17407,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="P+16" gate="1" x="33.02" y="137.16"/>
 <instance part="P+2" gate="1" x="-53.34" y="63.5"/>
 <instance part="DISPLAY" gate="G$1" x="68.58" y="63.5" rot="R180"/>
-<instance part="P+3" gate="1" x="55.88" y="73.66"/>
+<instance part="P+3" gate="1" x="58.42" y="73.66"/>
 <instance part="GND2" gate="1" x="58.42" y="53.34"/>
 <instance part="U4" gate="P" x="114.3" y="73.66" smashed="yes">
 <attribute name="NAME" x="113.03" y="73.025" size="1.778" layer="95"/>
@@ -17516,8 +17516,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <segment>
 <pinref part="DISPLAY" gate="G$1" pin="1"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="55.88" y1="71.12" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="71.12" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+14" gate="1" pin="+5V"/>
