@@ -2252,8 +2252,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="1"/>
 <contactref element="R1" pad="2"/>
 <contactref element="RST1" pad="1"/>
-<wire x1="83.82" y1="50.8" x2="81.28" y2="49.53" width="0.8128" layer="16"/>
-<wire x1="84.455" y1="53.34" x2="83.82" y2="50.8" width="0.8128" layer="16"/>
+<wire x1="82.55" y1="52.07" x2="81.28" y2="49.53" width="0.8128" layer="16"/>
+<wire x1="84.455" y1="53.34" x2="82.55" y2="52.07" width="0.8128" layer="16"/>
 <wire x1="86.36" y1="28.575" x2="69.215" y2="28.575" width="0.8128" layer="16"/>
 <wire x1="69.215" y1="28.575" x2="67.31" y2="33.02" width="0.8128" layer="16"/>
 <wire x1="67.31" y1="33.02" x2="59.69" y2="33.02" width="0.8128" layer="16"/>

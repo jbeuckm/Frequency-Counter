@@ -2186,7 +2186,6 @@ design rules under a new name.</description>
 <wire x1="54.850271875" y1="58.42" x2="53.374325" y2="60.530946875" width="0.8128" layer="16"/>
 <wire x1="26.67" y1="38.1" x2="30.48" y2="38.1" width="0.8128" layer="16"/>
 <wire x1="30.48" y1="38.1" x2="35.56" y2="40.64" width="0.8128" layer="16"/>
-<wire x1="34.925" y1="40.005" x2="35.56" y2="40.64" width="0.8128" layer="16"/>
 <wire x1="33.02" y1="35.56" x2="30.48" y2="38.1" width="0.8128" layer="16"/>
 </signal>
 <signal name="+12V">
