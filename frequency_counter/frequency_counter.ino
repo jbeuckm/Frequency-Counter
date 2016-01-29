@@ -19,7 +19,7 @@ void setup() {
   FreqPeriod::begin();
 
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  // initialize with the I2C addr 0x3C (for the 128x32)
-//  display.setRotation(90);
+
 }
 
 void loop() {
@@ -29,18 +29,9 @@ void loop() {
   if (pp ){
 
     lfrq= 16000400.0 / pp;
-/*
-    Serial.print("period: ");
-    Serial.print(pp);
-    Serial.print(" 1/16us  /  frequency: ");
 
-    printDouble(lfrq,6);
-    Serial.print(" Hz");
-
-    Serial.println("  ");
-*/
     display.clearDisplay();
-//    display.setRotation(1);
+    display.setRotation(2);
   
     display.setCursor(0,0);
     display.setTextSize(4);
